@@ -75,7 +75,7 @@ function checkAnswer(currentLevel)
     }
   }
   else {
-    playSound("sounds/wrong.mp3" );
+    playSound("wrong");
     $("body").addClass("game-over");
     setTimeout(function(){
       $("body").removeClass("game-over");
